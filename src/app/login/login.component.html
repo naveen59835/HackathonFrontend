@@ -1,0 +1,22 @@
+
+
+ <div class="container col-md-6">
+  <h2 style="color:red">Login Form</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="emailId" formControlName="emailId">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="password" formControlName="password">
+    </div>
+    <!-- <button type="submit" class="btn btn-primary">Login</button> -->
+    <button class="material-symbols-outlined" type="submit">
+      login
+    </button>
+  </form>
+</div>
+
+
+

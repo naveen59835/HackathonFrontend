@@ -1,0 +1,29 @@
+<div class="toolbarr">
+  <a routerLink="home">Home</a>
+  <a routerLink="registration">Sign Up</a>
+  <a routerLink="login">Login</a>
+  <a routerLink="details">Details</a>
+  <a routerLink="products">products</a>
+  <span class="material-symbols-outlined" type="submit" (click)="logout()" style="position: relative;top: 50px;right: 300px;">
+    logout
+    </span>
+
+</div>
+
+
+
+<p>
+
+  <mat-toolbar color="primary">
+    <span>Keep-Note.</span>
+    <span class="example-spacer"></span>
+    <mat-icon>home</mat-icon>
+    <mat-icon>apps</mat-icon>
+    <mat-icon>settings</mat-icon>
+  </mat-toolbar>
+</p>
+
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,15 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-icon{
+  margin-right: 20px;
+}
+a{
+text-decoration: none;
+padding: 20px;
+position: relative;
+top: 45px;
+left: 930px;
+color: whitesmoke;
+font-size: 15px;
+}
